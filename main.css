@@ -1,0 +1,91 @@
+body{
+    background-color: blueviolet;
+}
+#intro{
+    color:greenyellow;
+    font-weight:bold;
+    font-style:italic;
+}
+#firstpara{
+    font-weight:bold;
+    font-style:italic;
+    font-size:30px;
+    color:rosybrown;
+}
+#game_1{
+    font-weight:bold;
+    color:indianred;
+}
+.game_explainer{
+font-weight:bold;
+font-style:italic;
+font-size:30px;
+color:khaki;
+}
+.button{
+    height:50%;
+    width:60%;
+    font-weight:bold;
+    color:lightpink;
+    background-color:royalblue;
+    font-size:30px;
+}
+#game_2{
+    font-weight:bold;
+font-style:italic;
+color:lightgreen;
+}
+#div{
+    width:80%;
+    height:750px;
+}
+#div2{
+    width:80%;
+    height:750px;
+}
+#div3{
+    width:80%;
+    height:750px; 
+}
+#div4{
+    width:80%;
+    height:750px;   
+}
+#para4{
+    font-size:30px;
+    color:tomato;
+    font-weight:bold;
+    font-style:italic;
+}
+#div5{
+    width:80%;
+    height:750px;  
+}
+#para5{
+    font-size:30px;
+    color:royalblue;
+    font-weight:bold;
+    font-style:italic;
+}
+#yter{
+    width:80%;
+    height:40%;
+    font-size:25px;
+    font-weight:bold;
+    font-style:italic;
+}
+#recer{
+    width:80%;
+    height:40%;
+    font-size:30px;
+font-weight:bold;
+font-style:italic;
+}
+#diviv{
+    width:80%;
+    height:750px;
+}
+#ul{
+    width:40%;
+    
+}

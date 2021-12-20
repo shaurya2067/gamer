@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GAMERZ TRIVIA</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="trivia.css">
+<script src="trivia.js"></script>
+</head>
+<body>
+    <center>
+<div class="btn btn-danger">
+    <h1 id="startup">WELCOME TO YOUTUBE TRIVIA !!!</h1>
+    <br>
+    <h3 id="question" class="btn btn-info"></h3>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="options" id="op1"></button>
+    <br>
+    <br>
+    <br>
+    <button class="options" id="op2"></button>
+    <br>
+    <br>
+    <br>
+    <button class="options" id="op3"></button>
+    <br>
+    <br>
+    <br>
+    <button class="options" id="op4"></button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button class="btn btn-success" onclick="sendquestion()">PLAY !</button>
+    <br>
+    <br>
+    <br>
+    <input id="answerer" type="text" class="form-control" placeholder="type option in lowercase , for example ='option 2' ">
+    <br>
+    <br>
+    <br>
+    <button id="send1" onclick="answersend()">SEND ANSWER</button>
+    <br>
+    <br>
+    <br>
+    <button id="send2" onclick="answersend2()">SEND question 2</button>
+    <br>
+    <br>
+    <br>
+    <button id="send3" onclick="question_3()">SEND QUESTION 3</button>
+    <br>
+    <br>
+    <br>
+    <button id="logout" onclick="logout()">LOGOUT</button>
+</div>
+    </center>
+    </body>
+    </html>

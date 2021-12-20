@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHAT WEBPAGE</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="squid_game.css">
+<script src="squid_game.js"></script>
+</head>
+<body style="background-image:url('squid_game.jpg')">
+    <h4 class="btn btn-success">PLAYER 1 MARBLES :</h4><span id="player1_marbel" class="btn btn-danger"></span>
+    <br>
+    <h4 class="btn btn-success">PLAYER 2 MARBLES :</h4><span id="player2_marbel" class="btn btn-danger"></span>
+    <center>
+
+        <h1 class="btn btn-info" id="tell_result"></h1>
+        <audio id="audio1" src="Squider.m4a"></audio>
+<h3 id="player1_marbel_count"></h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <h3 id="player2_marbel_count"></h3>
+<br>
+<h3 class="btn btn-primary">PLAYER 1</h3>
+<br>
+<br>
+<br>
+<button id="player1_odd" class="btn btn-success" onclick="wrong()">ODD</button> &nbsp; &nbsp; <button id="player1_even" class="btn btn-danger" onclick="correct()">EVEN</button>
+<br>
+<br
+<hr>
+<h3 class="btn btn-primary">PLAYER 2</h3>
+<br>
+<br>
+<br>
+<br>
+<button class="btn btn-success" onclick="correct2()">ODD</button> &nbsp; &nbsp; <button class="btn btn-danger" onclick="wrong2()">EVEN</button>
+    </center>
+</body>
+</html>
